@@ -22,7 +22,8 @@ body{
    margin-top:170px;
 }         
 .postButtons {
-     display: flex; justify-content: center;
+     display: flex; 
+     justify-content: center;
 }
 .close{
    float:right;
@@ -40,4 +41,21 @@ font-size:30px;
    color:white;
    font-family:'Itim';
    font-size:20px;
+   display:block;
+   border-radius: 6px;
+   margin:0px;
+   width:100%
+}
+.modal-footer{
+   display: flex; 
+   justify-content: center;
+   flex-direction: row;
+   margin:0px;
+}
+.redirection{
+padding:0px;
+margin:0px;
+display: flex; 
+justify-content: center;
+font-weight:bold;
 }
