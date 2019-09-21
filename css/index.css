@@ -14,15 +14,30 @@ body{
 .postSecButtons{
    background-color:rgb(207,181,59);
    color:black;
-   height:30px;
+   height:40px;
    margin:5px 5px 0px 5px;
-   width:120px;
+   width:100px;
    align-self:center;
    font-weight: bold;
    margin-top:170px;
-
 }         
-   
 .postButtons {
      display: flex; justify-content: center;
+}
+.close{
+   float:right;
+}
+.modal-title{
+font-family:'Itim',Bold;
+font-size:30px;
+}
+.form-group{
+   font-family:'Itim';
+}
+
+.modalButtons{
+   background-color: rgb(94,183,98);
+   color:white;
+   font-family:'Itim';
+   font-size:20px;
 }
