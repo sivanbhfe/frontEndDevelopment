@@ -1,2 +1,22 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.headerButtons{
+    background-color:rgb(0,0,255);
+    color:white;
+    height:30px;
+    float:right;
+    margin:5px 5px 0px 5px;
+    width:80px;
+    }
+    #mainHeading {
+       display:inline-block;
+       font-family: 'Satisfy', cursive;
+       font-size:36px;
+       margin:5px 0px 0px 5px;
+       color:rgb(0,0,255);
+    }
+    #subHeading {
+        margin:5px 0px 0px 5px;
+        font-size:14px;
+       font-family: 'Satisfy', cursive;
+    }

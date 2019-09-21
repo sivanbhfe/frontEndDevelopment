@@ -11,4 +11,16 @@ body{
 } 
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-                                 
+.postSecButtons{
+   background-color:rgb(207,181,59);
+   color:black;
+   height:30px;
+   margin:5px 5px 0px 5px;
+   width:80px;
+   align-self:center;
+   font-weight: bold;
+   }         
+   
+   .postButtons {
+      display: flex; justify-content: center; 
+   }
