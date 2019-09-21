@@ -19,8 +19,9 @@ body{
    width:80px;
    align-self:center;
    font-weight: bold;
-   }         
+   margin-top:180px;
+}         
    
-   .postButtons {
-      display: flex; justify-content: center; 
-   }
+.postButtons {
+     display: flex; justify-content: center;
+}
