@@ -31,7 +31,10 @@ body{
 .modal-title{
 font-family:'Itim',Bold;
 font-size:30px;
+display: flex;
+justify-content: center;
 }
+
 .form-group{
    font-family:'Itim';
 }
@@ -46,6 +49,15 @@ font-size:30px;
    margin:0px;
    width:100%
 }
+
+.modalCreateButton{
+   background-color: rgb(94,183,98);
+   color:white;
+   font-family:'Itim';
+   font-size:20px;
+   border-radius: 6px;
+   width:30%
+}
 .modal-footer{
    display: flex; 
    justify-content: center;
@@ -59,10 +71,16 @@ display: flex;
 justify-content: center;
 font-weight:bold;
 }
-.modal-dialog {
-          width: 360px !important;
-          height:600px !important;
+.modal-dialog{
+   width: 360px !important;
+   height:100% !important;
 }
 a {
    cursor: pointer;
    }
+#postTitle{
+   height:25px;
+}
+#postContent{
+   height:250px;
+}
