@@ -14,13 +14,73 @@ body{
 .postSecButtons{
    background-color:rgb(207,181,59);
    color:black;
-   height:30px;
+   height:40px;
    margin:5px 5px 0px 5px;
-   width:80px;
+   width:100px;
    align-self:center;
    font-weight: bold;
-   }         
-   
-   .postButtons {
-      display: flex; justify-content: center; 
+   margin-top:170px;
+}         
+.postButtons {
+     display: flex; 
+     justify-content: center;
+}
+.close{
+   float:right;
+}
+.modal-title{
+font-family:'Itim',Bold;
+font-size:30px;
+display: flex;
+justify-content: center;
+}
+
+.form-group{
+   font-family:'Itim';
+}
+
+.modalButtons{
+   background-color: rgb(94,183,98);
+   color:white;
+   font-family:'Itim';
+   font-size:20px;
+   display:block;
+   border-radius: 6px;
+   margin:0px;
+   width:100%
+}
+
+.modalCreateButton{
+   background-color: rgb(94,183,98);
+   color:white;
+   font-family:'Itim';
+   font-size:20px;
+   border-radius: 6px;
+   width:30%
+}
+.modal-footer{
+   display: flex; 
+   justify-content: center;
+   flex-direction: row;
+   margin:0px;
+}
+.redirection{
+padding:0px;
+margin-bottom:10px;
+display: flex; 
+justify-content: center;
+font-weight:bold;
+}
+.modal-dialog{
+   width: 360px !important;
+   height:100% !important;
+}
+a {
+   cursor: pointer;
    }
+#postTitle{
+   height:25px;
+}
+#postContent{
+   height:250px;
+}
