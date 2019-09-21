@@ -63,3 +63,7 @@ font-weight:bold;
           width: 360px !important;
           height:600px !important;
 }
+
+a {
+   cursor: pointer;
+   }
