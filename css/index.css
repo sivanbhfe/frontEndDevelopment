@@ -1,115 +1,51 @@
 body{
-   background: url('background.jpg');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center;
-   background-size: cover;
-   margin: 0 !important;
-   background-size: 100% cover!important;
-   overflow:hidden;
-   display: block;
+background: url('background.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+margin: 0 !important;
+background-size: 100% cover!important;
+overflow:hidden;
+display: block;
 } 
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-
 /*All Posts and Create Post buttons formatting*/
 .postSecButtons{
-   background-color:rgb(207,181,59);
-   color:black;
-   height:40px;
-   margin:5px 5px 0px 5px;
-   width:110px;
-   align-self:center;
-   font-size:16px;
-   font-weight: bold;
-   margin-top:155px;
+background-color:rgb(207,181,59);
+color:black;
+height:40px;
+margin:5px 5px 0px 5px;
+width:110px;
+align-self:center;
+font-size:16px;
+font-weight: bold;
+margin-top:155px;
 }
 
 /*All Posts and Create Post buttons container division formatting*/
 .postButtons {
-     display: flex; 
-     justify-content: center;
+   display: flex; 
+   justify-content: center;
 }
 
 /*All post button size adjustment*/
 #allPost {
-   width:90px;
+width:90px;
 }
 
 /*x close buttong on modal dialog boxes*/
 .close{
-   float:right;
+float:right;
 }
-
-/*Title of the modal dialog box*/
-.modal-title{
-font-family:'Itim',Bold;
-font-size:30px;
-display: flex;
-justify-content: center;
-}
-
-/*All modal dialog box content*/
-.form-group{
-   font-family:'Itim';
-}
-
-/*Buttons on modal dialog boxes*/
-.modalButtons{
-   background-color: rgb(94,183,98);
-   color:white;
-   font-family:'Itim';
-   font-size:20px;
-   display:block;
-   border-radius: 6px;
-   margin:0px;
-   width:100%
-}
-
-/*Button on Create Post modal dialog box*/
-.modalCreateButton{
-   background-color: rgb(94,183,98);
-   color:white;
-   font-family:'Itim';
-   font-size:20px;
-   border-radius: 6px;
-   width:30%
-}
-
-/*Modal dialog box button container*/
-.modal-footer{
-   display: flex; 
-   justify-content: center;
-   flex-direction: row;
-   margin:0px;
-}
-
-/*Not a member and sign up redirection*/
-.redirection{
-padding:0px;
-margin-bottom:10px;
-display: flex; 
-justify-content: center;
-font-weight:bold;
-}
-
-/*All modal dialog boxes*/
-.modal-dialog{
-   width: 360px !important;
-   height:100% !important;
-}
-
-/*Mouse pointer on Sign up redirection from Sign in modal*/
-a {
-   cursor: pointer;
-   }
 
 /*Text box in Create post for Title field*/
 #postTitle{
-   height:25px;
+height:25px;
 }
 
 /*Text box in Create post for Content field*/
 #postContent{
-   height:250px;
+height:250px;
 }
