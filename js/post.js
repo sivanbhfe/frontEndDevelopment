@@ -10,11 +10,11 @@ var addCommentButton= document.getElementById("addCommentButton");
 var commentList= document.getElementById("commentList");
 var blogContent= document.getElementById("blogContent");
 
-//on Edit/Save button Click
+//on clicking the Edit and Save button 
 function editBlog(){
     var blogContent='';
 
-    //editing part
+    //on clicking Edit button
     if(saveEditButton.innerHTML.includes('Edit')){
         
         saveEditButton.innerHTML='Save &nbsp <i class="fa fa-save"></i>';
@@ -31,7 +31,7 @@ function editBlog(){
 
 
     }
-    //saving part
+    //on clicking save button
     else{
         blogContent= blogEditArea.value;
         console.log(blogContent);
@@ -45,7 +45,7 @@ function editBlog(){
 
 }
 
-// on Like Button click
+// on clicking Like Button 
 function likeBlog(){
     likeCounter++;
     likeButton.innerHTML="Liked!";
@@ -56,7 +56,7 @@ function likeBlog(){
     }
 }
 
-// on Comment Button Click
+// on clicking Comment Button 
 function addComment(){
         var commentText= addCommentArea.value;
     addCommentArea.value='';
