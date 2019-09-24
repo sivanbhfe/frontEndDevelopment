@@ -32,9 +32,10 @@
 .post-title{
 font-family: 'Itim', cursive;
 font-weight: bold;
+overflow: hidden;
 color: #2b312b;
 font-size: 25px;
-height: 25px;
+height: 30px;
 }
 .post-more {
 float: right;
@@ -48,6 +49,9 @@ font-size: 30px;
 #post-description{
     height: 100%;
     overflow: hidden;
+    margin: 10px 10px 10px 10px;
+    height: 100px;
+
 }
 
 .post-desc{
