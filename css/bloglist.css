@@ -72,3 +72,24 @@ body {
     margin-left: 90%;
     margin-top: 10px;
 }
+#yesButton{
+    margin: 10px 30px 10px 10px;
+    width: 100px;
+    border-block-end-style: solid;
+}
+
+#noButton{
+    margin: 10px 10px 10px 30px;
+    width: 100px;
+    border-block-end-style: solid;
+}
+#deleteText{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

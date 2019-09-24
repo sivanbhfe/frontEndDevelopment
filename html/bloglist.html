@@ -190,11 +190,25 @@
             </div>
         </div>
 
-        <div>
-
-            <!-- Insert code for delete modal here -->
-            
-        </div>
+        <div id="deletePostModal" class="modal fade" role="dialog">
+          <!-- Insert code for delete modal here -->
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                   <div class="modal-body">
+                     <form id="deletePost">
+                       <div class="form-group">
+                           <p id="deleteText" >Are you sure you want to delete this post?</p>
+                       </div>
+                     </form>
+                     <div class="modal-footer">
+                          <button type="button" class="btn btn-success" id="yesButton">Yes</button>
+                          <button type="button" class="btn btn-danger" id="noButton" data-dismiss="modal">No</button>  
+                     </div>
+                   </div>
+                 </div>
+              </div>
+  </div>
         
 </div>
     <script src="..\js\bloglist.js">  </script>
