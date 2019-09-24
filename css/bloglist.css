@@ -65,3 +65,10 @@ body {
 .header{
     background-color: orange;
 }
+#trashPost{
+    width: 5px;
+    height: 5px;
+    border: none;
+    margin-left: 90%;
+    margin-top: 10px;
+}
