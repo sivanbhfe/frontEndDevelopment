@@ -1,51 +1,58 @@
 .post {
     position: relative;
-    width: 90%;
+    width: 40%;
     height: 20%;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
-    margin: 10px 10px 10px 20px;
+    margin: 10px 30px 10px 30px;
     float:left;
     border-radius: 15px;
+    align-self: center;
 }
     
 .post-left {
-        width: 15%;            
-        max-width: 15%;
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-        font-weight: bold;
-        color: #000;
+    width: 15%;            
+    max-width: 15%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
 }
 .post-content {
-        width: 75%;           
-        display: table-cell;
-        text-align: left;
-        background-color: #E8E8E8;
-        color: #000000;
-        border-radius: 0 15px 15px 0;
-        padding: 0 20px;      
+    width: 75%;           
+    display: table-cell;
+    text-align: left;
+    overflow: hidden;
+    background-color: #E8E8E8;
+    color: #000000;
+    border-radius: 0 15px 15px 0;
+    padding: 0 20px;      
 }
 .post-title{
-    font-family: 'Itim', cursive;
-    font-weight: bold;
-    color: #2b312b;
-    font-size: 25px;
-    height: 25px;
-    }
-.post-more {
-    float: right;
-    cursor: pointer;
-    font-size: 18px;
-    margin-right: 0 !important;
-    padding-right: 0 !important;
-    padding-bottom: 10px;
-    font-size: 30px;
+font-family: 'Itim', cursive;
+font-weight: bold;
+color: #2b312b;
+font-size: 25px;
+height: 25px;
 }
+.post-more {
+float: right;
+cursor: pointer;
+font-size: 18px;
+margin-right: 0 !important;
+padding-right: 0 !important;
+padding-bottom: 10px;
+font-size: 30px;
+}
+#post-description{
+    height: 100%;
+    overflow: hidden;
+}
+
 .post-desc{
-    height: 100px;
-    margin-bottom: 0 !important;
+height: 100px;
+margin-bottom: 0 !important;
 }
 
 body {
@@ -61,4 +68,43 @@ body {
     height: 100%;
     width: 100%;
 
+}
+.header{
+    background-color: orange;
+}
+
+#postDetails{
+    margin-left: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#trashPost{
+    width: 5px;
+    height: 5px;
+    border: none;
+    margin-left: 90%;
+    margin-top: 10px;
+}
+#yesButton{
+    margin: 10px 30px 10px 10px;
+    width: 100px;
+    border-block-end-style: solid;
+}
+
+#noButton{
+    margin: 10px 10px 10px 30px;
+    width: 100px;
+    border-block-end-style: solid;
+}
+#deleteText{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
