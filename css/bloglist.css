@@ -65,6 +65,14 @@ body {
 .header{
     background-color: orange;
 }
+
+#postDetails{
+    margin-left: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
 #trashPost{
     width: 5px;
     height: 5px;
