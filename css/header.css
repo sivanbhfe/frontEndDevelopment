@@ -1,2 +1,85 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.headerButtons {
+background-color:rgb(0,0,255);
+color:white;
+height:40px;
+float:right;
+margin:5px 10px 0px 5px;
+width:80px;
+}
+#mainHeading {
+display:inline-block;
+font-family: 'Satisfy', cursive;
+font-size:36px;
+margin:5px 0px 0px 10px;
+color:rgb(0,0,255);
+}
+#subHeading {
+margin:5px 0px 0px 10px;
+font-size:14px;
+font-family: 'Satisfy', cursive;
+}
+
+/*Title of the modal dialog box*/
+.modal-title {
+font-family:'Itim',Bold;
+font-size:30px;
+display: flex;
+justify-content: center;
+}
+
+/*All modal dialog box content*/
+.form-group {
+font-family:'Itim';
+}
+
+/*Buttons on modal dialog boxes*/
+.modalButtons {
+background-color: rgb(94,183,98);
+color:white;
+font-family:'Itim';
+font-size:20px;
+display:block;
+border-radius: 6px;
+margin:0px;
+width:100%
+}
+
+/*Button on Create Post modal dialog box*/
+.modalCreateButton {
+background-color: rgb(94,183,98);
+color:white;
+font-family:'Itim';
+font-size:20px;
+border-radius: 6px;
+width:30%
+}
+
+/*Modal dialog box button container*/
+.modal-footer {
+display: flex; 
+justify-content: center;
+flex-direction: row;
+margin:0px;
+}
+
+/*Not a member and sign up redirection*/
+.redirection {
+padding:0px;
+margin-bottom:10px;
+display: flex; 
+justify-content: center;
+font-weight:bold;
+}
+
+/*All modal dialog boxes*/
+.modal-dialog {
+width: 360px !important;
+height:100% !important;
+}
+
+/*Mouse pointer on Sign up redirection from Sign in modal*/
+a {
+cursor: pointer;
+}
