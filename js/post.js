@@ -4,11 +4,11 @@ var blogEditArea = document.getElementById("blogEditArea");
 var saveEditButton = document.getElementById("editContentButton");
 var likeButton = document.getElementById("likeButton");
 var likeText= document.getElementById("likeText");
+var commentList= document.getElementById("commentList");
+var blogContent= document.getElementById("blogContent");
 var likeCounter =0;
 var addCommentArea= document.getElementById("addCommentArea");
 var addCommentButton= document.getElementById("addCommentButton");
-var commentList= document.getElementById("commentList");
-var blogContent= document.getElementById("blogContent");
 
 //on clicking the Edit and Save button 
 function editBlog(){
