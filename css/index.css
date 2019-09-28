@@ -49,10 +49,12 @@ width:620px;
 /*Text box in Create post for Content field*/
 #postContent{
 height:250px;
-width:620px;
 }
 
-/*For a larget content box, increasing modal width*/
-.modal-content{
+#createModal{
 	width:650px;
+}
+#createPostModal{
+	left:-300px;
+	
 }
