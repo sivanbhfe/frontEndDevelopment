@@ -49,3 +49,11 @@ height:25px;
 #postContent{
 height:250px;
 }
+
+#createModal{
+	width:650px;
+}
+#createPostModal{
+	left:-300px;
+	
+}
