@@ -43,9 +43,16 @@ float:right;
 /*Text box in Create post for Title field*/
 #postTitle{
 height:25px;
+width:620px;
 }
 
 /*Text box in Create post for Content field*/
 #postContent{
 height:250px;
+width:620px;
+}
+
+/*For a larget content box, increasing modal width*/
+.modal-content{
+	width:650px;
 }
