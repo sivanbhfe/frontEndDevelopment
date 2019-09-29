@@ -34,7 +34,7 @@ margin:var(--main-content-margin);
 
 
 .postPageButton{
-    background-color: var(--postpage-button-color);
+    background-color: rgb(217, 83, 79);
     border:none;
     box-shadow: 0px 8px 15px rgba(246, 136, 178, 0.4);
     transition: all 0.3s ease 0s;
@@ -47,6 +47,7 @@ margin:var(--main-content-margin);
     padding: 12px 20px;
     border-radius: 5px;
 }
+
 .postPageButton:hover {
     background-color: var(--postpage-button-color);
     box-shadow: 0px 15px 20px rgba(246, 136, 178, 0.4);
@@ -59,6 +60,8 @@ margin:var(--main-content-margin);
     margin-top: 24px;
     height:40px;
     text-align: center;
+    background-color: rgb(217, 83, 79);
+    color: #FFFFFF;
 }
 
 #blogAuthorName{
@@ -100,3 +103,17 @@ margin:var(--main-content-margin);
     margin-top:var(--inter-element-margin);
 }
 
+.commentButton{
+    background-color: rgb(217, 83, 79);
+    border:none;
+    box-shadow: 0px 8px 15px rgba(246, 136, 178, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color:#FFFFFF;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 12pt;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
