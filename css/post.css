@@ -100,3 +100,17 @@ margin:var(--main-content-margin);
     margin-top:var(--inter-element-margin);
 }
 
+.commentButton{
+    background-color: rgb(217, 83, 79);
+    border:none;
+    box-shadow: 0px 8px 15px rgba(246, 136, 178, 0.4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    color:#FFFFFF;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 12pt;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
