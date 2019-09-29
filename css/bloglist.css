@@ -99,6 +99,7 @@ body {
     border-block-end-style: solid;
     border-end-start-radius: 0;
     border-end-end-radius: 0;
+	border-radius:5px;
 }
 
 #noButton{
@@ -107,6 +108,7 @@ body {
     border-block-end-style: solid;
     border-end-start-radius: 0;
     border-end-end-radius: 0;
+	border-radius:5px;
 }
 
 #deleteText{
