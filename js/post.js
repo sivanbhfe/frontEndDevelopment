@@ -35,7 +35,7 @@ function editBlog(){
     else{
         blogContent= blogEditArea.value;
         console.log(blogContent);
-        saveEditButton.innerHTML='Edit'; 
+        saveEditButton.innerHTML='Edit &nbsp<i class="fa fa-edit"></i>'; 
         blogTitle.setAttribute("contenteditable",false);
         blogTitle.style.border="none";
         blogEditArea.style.display="none";
@@ -48,7 +48,7 @@ function editBlog(){
 // on clicking Like Button 
 function likeBlog(){
     likeCounter++;
-    likeButton.innerHTML="Liked!";
+    likeButton.innerHTML='<i class="fa fa-thumbs-up"></i>Liked!';
     if(likeCounter==1){
         likeText.innerHTML=likeCounter + " person likes this!";
     }else{
